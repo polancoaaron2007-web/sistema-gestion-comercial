@@ -35,9 +35,21 @@ def entrada_interactiva():
     print('Existencias actualizadas:', registrar_entrada(codigo, cantidad, descripcion))
 
 def alertas():
-    encontrados = [p for p in obtener_productos() if p['activo'] and p['cantidad'] <= p['stock_minimo']]
-    if not encontrados: print('No hay productos activos en nivel mínimo.')
-    for p in encontrados: mostrar_producto(p)
+    productos = obtener_productos()
+
+    encontrados = [
+        p for p in productos
+        if p['cantidad'] <= p['stock_minimo']
+    ]
+
+    if not encontrados:
+        print('No hay productos con existencias bajas.')
+        return
+
+    print('\n--- PRODUCTOS CON STOCK BAJO ---')
+
+    for p in encontrados:
+        mostrar_producto(p)
 
 def historial():
     movimientos = leer_datos(ARCHIVO)
