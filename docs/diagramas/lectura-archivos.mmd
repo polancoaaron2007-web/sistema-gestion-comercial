@@ -1,0 +1,6 @@
+flowchart TD
+A([Inicio]) --> B{¿Existe archivo?}
+B -- No --> C[Devolver lista vacía] --> Z([Fin])
+B -- Sí --> D[Leer JSON] --> E{¿Formato válido?}
+E -- No --> F[/Mostrar error/] --> Z
+E -- Sí --> G[Devolver registros] --> Z

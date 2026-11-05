@@ -1,0 +1,25 @@
+[
+  {
+    "numero": 1,
+    "fecha": "2026-11-01T10:30:00",
+    "detalle": [
+      {
+        "codigo": "P001",
+        "nombre": "Teclado USB",
+        "precio": "125.00",
+        "cantidad": 2,
+        "subtotal": "250.00"
+      },
+      {
+        "codigo": "P002",
+        "nombre": "Mouse óptico",
+        "precio": "75.00",
+        "cantidad": 1,
+        "subtotal": "75.00"
+      }
+    ],
+    "subtotal": "325.00",
+    "iva": "39.00",
+    "total": "364.00"
+  }
+]

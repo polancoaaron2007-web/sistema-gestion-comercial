@@ -1,0 +1,8 @@
+flowchart TD
+A([Inicio]) --> B[/Ingresar producto y unidades/] --> C{¿Producto activo y cantidad positiva?}
+C -- No --> X[/Error/] --> Z([Fin])
+C -- Sí --> D{¿Agregar otro?}
+D -- Sí --> B
+D -- No --> E{¿Stock suficiente para todos?}
+E -- No --> X
+E -- Sí --> F[Calcular subtotal, IVA y total] --> G[Guardar venta y movimientos] --> H[Descontar stock y guardar] --> I[/Comprobante/] --> Z

@@ -1,0 +1,8 @@
+flowchart TD
+A([Inicio]) --> B[/Ingresar código/] --> C{¿Existe?}
+C -- No --> D[/Informar inexistente/] --> Z([Fin])
+C -- Sí --> E[/Mostrar datos y opciones/] --> F{¿Modificar?}
+F -- No --> Z
+F -- Sí --> G[/Ingresar nuevo valor/] --> H{¿Válido?}
+H -- No --> I[/Error/] --> G
+H -- Sí --> J[Guardar JSON] --> Z

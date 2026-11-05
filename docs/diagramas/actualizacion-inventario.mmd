@@ -1,0 +1,6 @@
+flowchart TD
+A([Inicio]) --> B[/Código, unidades, descripción/] --> C{¿Producto activo?}
+C -- No --> X[/Error/] --> Z([Fin])
+C -- Sí --> D{¿Cantidad positiva?}
+D -- No --> X
+D -- Sí --> E[Agregar entrada y movimiento] --> F[Guardar archivos] --> G[/Mostrar stock/] --> Z

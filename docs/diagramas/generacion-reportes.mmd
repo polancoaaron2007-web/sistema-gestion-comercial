@@ -1,0 +1,4 @@
+flowchart TD
+A([Inicio]) --> B[Leer archivos] --> C{¿Lectura correcta?}
+C -- No --> D[/Mostrar error/] --> Z([Fin])
+C -- Sí --> E[Recorrer ventas y productos] --> F[Acumular totales y unidades] --> G[Calcular promedios y matriz] --> H[/Mostrar reporte/] --> Z

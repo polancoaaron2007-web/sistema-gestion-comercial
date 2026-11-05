@@ -1,0 +1,6 @@
+flowchart TD
+A([Inicio]) --> B[/Solicitar datos/] --> C{¿Datos válidos?}
+C -- No --> D[/Mostrar error/] --> B
+C -- Sí --> E{¿Código repetido?}
+E -- Sí --> D
+E -- No --> F[Guardar producto JSON] --> G[/Confirmar/] --> H([Fin])

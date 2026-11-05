@@ -1,0 +1,16 @@
+[
+  {
+    "fecha": "2026-11-01T10:30:00",
+    "codigo": "P001",
+    "tipo": "SALIDA",
+    "cantidad": 2,
+    "descripcion": "Venta número 1"
+  },
+  {
+    "fecha": "2026-11-01T10:30:00",
+    "codigo": "P002",
+    "tipo": "SALIDA",
+    "cantidad": 1,
+    "descripcion": "Venta número 1"
+  }
+]
