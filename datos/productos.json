@@ -34,5 +34,14 @@
     "cantidad": 0,
     "stock_minimo": 3,
     "activo": false
+  },
+  {
+    "codigo": "P110",
+    "nombre": "Mouse Inalambrico",
+    "categoria": "Accesorios",
+    "precio": "90.00",
+    "cantidad": 22,
+    "stock_minimo": 8,
+    "activo": true
   }
 ]
