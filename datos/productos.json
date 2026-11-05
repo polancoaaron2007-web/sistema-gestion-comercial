@@ -40,8 +40,26 @@
     "nombre": "Mouse Inalambrico",
     "categoria": "Accesorios",
     "precio": "90.00",
-    "cantidad": 22,
+    "cantidad": 20,
     "stock_minimo": 8,
+    "activo": true
+  },
+  {
+    "codigo": "P120",
+    "nombre": "Teclado USB",
+    "categoria": "Accesorios",
+    "precio": "140.00",
+    "cantidad": 10,
+    "stock_minimo": 5,
+    "activo": true
+  },
+  {
+    "codigo": "P130",
+    "nombre": "Memoriam USB",
+    "categoria": "Almacenamiento",
+    "precio": "75.00",
+    "cantidad": 15,
+    "stock_minimo": 5,
     "activo": true
   }
 ]

@@ -21,5 +21,21 @@
     "subtotal": "325.00",
     "iva": "39.00",
     "total": "364.00"
+  },
+  {
+    "numero": 2,
+    "fecha": "2026-11-05T00:29:52",
+    "detalle": [
+      {
+        "codigo": "P110",
+        "nombre": "Mouse Inalambrico",
+        "precio": "90.00",
+        "cantidad": 2,
+        "subtotal": "180.00"
+      }
+    ],
+    "subtotal": "180.00",
+    "iva": "21.60",
+    "total": "201.60"
   }
 ]

@@ -12,5 +12,12 @@
     "tipo": "SALIDA",
     "cantidad": 1,
     "descripcion": "Venta número 1"
+  },
+  {
+    "fecha": "2026-11-05T00:29:52",
+    "codigo": "P110",
+    "tipo": "SALIDA",
+    "cantidad": 2,
+    "descripcion": "Venta número 2"
   }
 ]
