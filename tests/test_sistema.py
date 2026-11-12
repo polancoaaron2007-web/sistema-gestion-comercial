@@ -48,7 +48,7 @@ class SistemaTest(unittest.TestCase):
         ventas.registrar_venta([('P1', 2), ('P2', 1)], fecha='2026-11-01T10:00:00')
         r = reportes.generar_reporte()
         self.assertEqual(r['ingresos'], 364)
-        self.assertEqual(r['mas_vendido'], ('P1', 2))
+        self.assertEqual(r['mas_vendido'], [('P1', 2)])
         self.assertEqual(r['matriz'], [[3, 325.0, 39.0, 364.0]])
         self.assertEqual(r['promedios_mensuales']['2026-11'], 364)
 

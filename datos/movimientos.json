@@ -19,5 +19,12 @@
     "tipo": "SALIDA",
     "cantidad": 2,
     "descripcion": "Venta número 2"
+  },
+  {
+    "fecha": "2026-11-05T01:04:38",
+    "codigo": "P110",
+    "tipo": "ENTRADA",
+    "cantidad": 10,
+    "descripcion": "Compra de mercaderia para reabastecimiento"
   }
 ]

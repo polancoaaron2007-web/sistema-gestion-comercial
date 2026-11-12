@@ -40,7 +40,7 @@
     "nombre": "Mouse Inalambrico",
     "categoria": "Accesorios",
     "precio": "90.00",
-    "cantidad": 20,
+    "cantidad": 30,
     "stock_minimo": 8,
     "activo": true
   },
